@@ -85,30 +85,30 @@
 
 | 이름      | 참석 여부 | 풀이       |
 |:-------:|:-----:|:--------:|
-| **김도언** |       | [바로가기]() |
-| **김태학** |       | [바로가기]() |
-| **박진성** |       | [바로가기]() |
-| **양희제** |       | [바로가기]() |
-| **오태훈** |       | [바로가기]() |
-| **유덕균** |       | [바로가기]() |
-| **조용현** |       | [바로가기]() |
+| **김도언** |       | [바로가기](https://github.com/heeje-factory/Navigate-Best-Algorithms/tree/main/NBA_doeon/2023_02/week_3rd) |
+| **김태학** |   ✅  | [바로가기](https://github.com/heeje-factory/Navigate-Best-Algorithms/tree/main/NBA_taehak/2023_02/week_3rd) |
+| **박진성** |       | [바로가기](https://github.com/heeje-factory/Navigate-Best-Algorithms/tree/main/NBA_jinseong/2023_02/week_3rd) |
+| **양희제** |   ✅  | [바로가기](https://github.com/heeje-factory/Navigate-Best-Algorithms/tree/main/NBA_heeje/2023_02/week_3rd) |
+| **오태훈** |  ✅   | [바로가기](https://github.com/heeje-factory/Navigate-Best-Algorithms/tree/main/NBA_taehun/2023_02/week_3rd) |
+| **유덕균** |  ✅   | [바로가기](https://github.com/heeje-factory/Navigate-Best-Algorithms/tree/main/NBA_deokgyun/2023_02/week_3rd) |
+| **조용현** |  ✅   | [바로가기](https://github.com/heeje-factory/Navigate-Best-Algorithms/tree/main/NBA_yonghyun/2023_02/week_3rd) |
 
 ### <br/>📖 **2월 4주차 (주제 : DFS, BFS 복습 2)**
 
-**문제 1 :**
+**문제 1 :** [[BOJ] 15656. N과 M (7)](https://www.acmicpc.net/problem/15656)
 
-**문제 2 :** 
+**문제 2 :** [[SWEA] 1238. Contact](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV15B1cKAKwCFAYD)
 
-**문제 3 :** 
+**문제 3 :** [[SWEA] 1953. 탈주범 검거](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5PpLlKAQ4DFAUq)
 
-**문제 4 :**
+**문제 4 :** [[Programmers] 22944. 죽음의 비](https://www.acmicpc.net/problem/22944)
 
 | 이름      | 참석 여부 | 풀이       |
 |:-------:|:-----:|:--------:|
-| **김도언** |       | [바로가기]() |
-| **김태학** |       | [바로가기]() |
-| **박진성** |       | [바로가기]() |
-| **양희제** |       | [바로가기]() |
-| **오태훈** |       | [바로가기]() |
-| **유덕균** |       | [바로가기]() |
-| **조용현** |       | [바로가기]() |
+| **김도언** |       | [바로가기](https://github.com/heeje-factory/Navigate-Best-Algorithms/tree/main/NBA_doeon/2023_02/week_4th) |
+| **김태학** |       | [바로가기](https://github.com/heeje-factory/Navigate-Best-Algorithms/tree/main/NBA_taehak/2023_02/week_4th) |
+| **박진성** |       | [바로가기](https://github.com/heeje-factory/Navigate-Best-Algorithms/tree/main/NBA_jinseong/2023_02/week_4th) |
+| **양희제** |       | [바로가기](https://github.com/heeje-factory/Navigate-Best-Algorithms/tree/main/NBA_heeje/2023_02/week_4th) |
+| **오태훈** |       | [바로가기](https://github.com/heeje-factory/Navigate-Best-Algorithms/tree/main/NBA_taehun/2023_02/week_4th) |
+| **유덕균** |       | [바로가기](https://github.com/heeje-factory/Navigate-Best-Algorithms/tree/main/NBA_deokgyun/2023_02/week_4th) |
+| **조용현** |       | [바로가기](https://github.com/heeje-factory/Navigate-Best-Algorithms/tree/main/NBA_yonghyun/2023_02/week_4th) |
