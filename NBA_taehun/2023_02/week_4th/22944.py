@@ -45,3 +45,4 @@ count = bfs(start)
 if not count:
     count = -1
 print(count)
+
