@@ -118,7 +118,7 @@
 
 **문제 3 :** [[SWEA] 1953. 탈주범 검거](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5PpLlKAQ4DFAUq)
 
-**문제 4 :** [[Programmers] 22944. 죽음의 비](https://www.acmicpc.net/problem/22944)
+**문제 4 :** [[BOJ] 22944. 죽음의 비](https://www.acmicpc.net/problem/22944)
 
 | 이름      | 참석 여부 | 풀이       |
 |:-------:|:-----:|:--------:|
