@@ -15,7 +15,7 @@
 [구경하러 가기](https://tundra-slip-d43.notion.site/Navigate-Best-Algorithms-b1de8582dbbe4f578010137ce73b087a)
 
 <div style="display:flex; justify-content:center; align-items:center;">
-<img src="https://user-images.githubusercontent.com/89143804/222010632-4a5e7fcb-1dff-43c3-8f73-81149f9345fb.png">
+<img src="https://user-images.githubusercontent.com/89143804/222015284-5e077eb1-3220-4ee0-97c0-3e802ebb6abe.png">
 </div>
 
 <div style="display:flex; justify-content:center; align-items:center;">
