@@ -90,7 +90,7 @@
 
 ### <br/>📖 **3월 1주차 (주제 : Dynamic Programming)**
 
-**문제 1 :** [[BOJ] 10870. 피보나치 수 5](https://www.acmicpc.net/problem/2748)
+**문제 1 :** [[BOJ] 10870. 피보나치 수 5](https://www.acmicpc.net/problem/10870)
 
 **문제 2 :** [[Programmers] 43105. 정수 삼각형](https://school.programmers.co.kr/learn/courses/30/lessons/43105)
 
