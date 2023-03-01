@@ -96,13 +96,13 @@
 
 | 이름      | 참석 여부 | 풀이       |
 |:-------:|:-----:|:--------:|
-| **김도언** |       | [바로가기]() |
-| **김태학** |       | [바로가기]() |
-| **박진성** |       | [바로가기]() |
-| **양희제** |       | [바로가기]() |
-| **오태훈** |       | [바로가기]() |
-| **유덕균** |       | [바로가기]() |
-| **조용현** |       | [바로가기]() |
+| **김도언** |       | [바로가기](https://github.com/heeje-factory/Navigate-Best-Algorithms/tree/main/NBA_doeon/2023_03/week_1st) |
+| **김태학** |       | [바로가기](https://github.com/heeje-factory/Navigate-Best-Algorithms/tree/main/NBA_taehak/2023_03/week_1st) |
+| **박진성** |       | [바로가기](https://github.com/heeje-factory/Navigate-Best-Algorithms/tree/main/NBA_jinseong/2023_03/week_1st) |
+| **양희제** |       | [바로가기](https://github.com/heeje-factory/Navigate-Best-Algorithms/tree/main/NBA_heeje/2023_03/week_1st) |
+| **오태훈** |       | [바로가기](https://github.com/heeje-factory/Navigate-Best-Algorithms/tree/main/NBA_taehun/2023_03/week_1st) |
+| **유덕균** |       | [바로가기](https://github.com/heeje-factory/Navigate-Best-Algorithms/tree/main/NBA_deokgyun/2023_03/week_1st) |
+| **조용현** |       | [바로가기](https://github.com/heeje-factory/Navigate-Best-Algorithms/tree/main/NBA_yonghyun/2023_03/week_1st) |
 
 ## <br/>📒 **23년 2월 세부 계획**
 
