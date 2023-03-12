@@ -14,7 +14,7 @@ def dfs(flower_list, price):
     global min_price
 
     # 현재 가격이 최소 가격보다 크면 백트래킹
-    if price >= min_price:
+    if price >= min_price:  
         return
     
     # 꽃 3개의 위치를 모두 정했다면 최소 가격 비교 및 갱신
