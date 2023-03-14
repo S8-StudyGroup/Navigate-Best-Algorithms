@@ -12,7 +12,7 @@ def check(arr):
         num = arr.pop()
         i = num // (N - 2) + 1
         j = num % (N - 2) + 1
-        # 안 겹칠 경우 계속 진행, cnt += 1 => cnt = 3이면 답 비교 후 리턴
+        # 안 겹칠 경우 계속 진행, cnt += 1 => cnt = 3이면 답 비교
         if not visited[i][j] and not visited[i - 1][j] and not visited[i + 1][j] and not visited[i][j + 1] and not visited[i][j - 1]:
             visited[i][j] = True
             visited[i - 1][j] = True
