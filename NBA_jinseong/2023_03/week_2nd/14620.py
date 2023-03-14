@@ -6,7 +6,6 @@ def check(arr):
     visited = [[False] * N for _ in range(N)]
     cnt = 0
     now_price = 0
-    test = []
 
     while arr:
         num = arr.pop()
@@ -21,7 +20,6 @@ def check(arr):
             visited[i][j - 1] = True
             cnt += 1
             now_price += price_grid[i][j] + price_grid[i - 1][j] + price_grid[i + 1][j] + price_grid[i][j - 1] + price_grid[i][j + 1]
-            test.append([i,j])
     if cnt == length:
         if now_price < ans:
             ans = now_price
