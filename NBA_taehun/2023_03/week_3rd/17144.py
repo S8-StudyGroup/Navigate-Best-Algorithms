@@ -51,8 +51,8 @@ def dust_diffusion():
                 air_cleaner.append((r, c))
     
 
-    for idx, value in move_dust.items():
-        room[idx[0]][idx[1]] += value
+    for key, value in move_dust.items():
+        room[key[0]][key[1]] += value
     
 
 
@@ -68,6 +68,7 @@ def total_dust_amount():
 R, C, T = map(int, input().strip().split())
 
 room = [list(map(int, input().strip().split())) for _ in range(R)]
+
 d = [(-1, 0), (1, 0), (0, -1), (0, 1)]
 d_up = [(0, 1), (-1, 0), (0, -1), (1, 0)]
 d_down = [(0, 1), (1, 0), (0, -1), (-1, 0)]
