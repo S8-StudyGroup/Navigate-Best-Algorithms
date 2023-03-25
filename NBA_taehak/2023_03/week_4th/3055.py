@@ -1,18 +1,15 @@
 # [BOJ] 3055. 탈출
 # 소요 시간 : 00분
 rsize, csize = map(int, input().split())
-area = [input() for _ in range(rsize)]
+area = [list(input()) for _ in range(rsize)]
 
-result = 'KAKTUS'
-
+water = []
 for r in range(rsize):
     for c in range(csize):
-        if area[r][c] == 'D':
-            beaver = (r, c)
-        elif area[r][c] == 'S':
-            target = (r, c)
+        if area[r][c] == 'S':
+            runner_start = (r, c)
         elif area[r][c] == '*':
-            water_source = (r, c)
+            water.append((r, c))
 
 
 def inrange(r, c):
@@ -27,6 +24,51 @@ def inrange(r, c):
         return False
 
 
-def bfs(beaver, target, water_source):
-    beaver_visited = [[False] * csize for _ in range(rsize)]    
-    water_visited = [[False] * csize for _ in range(rsize)]
+def bfs(runner_start, water):
+    delta = [(0, 1), (0, -1), (1, 0), (-1, 0)]
+    time = 0
+
+    runner = [runner_start]
+    runner_cnt = [0, 1]
+    water_cnt = [0, len(water)]
+
+    while runner_cnt[-1] != runner_cnt[-2]:
+        time += 1
+
+        # print('++++++++++++++++++++++++++++++++++++++++++++++')
+        # print(time)
+        # for i in area:
+        #     print(i)
+        
+
+        # 물이 먼저 이동
+        for w in range(water_cnt[time-1], water_cnt[time]):
+            wr, wc = water[w]
+            for dr, dc in delta:
+                nr = wr + dr
+                nc = wc + dc
+                if inrange(nr, nc) and area[nr][nc] in ['.', 'S']:
+                    area[nr][nc] = '*'
+                    water.append((nr, nc))
+        water_cnt.append(len(water))
+
+        # 고슴도치가 이동
+        for r in range(runner_cnt[time-1], runner_cnt[time]):
+            rr, rc = runner[r]
+            for dr, dc in delta:
+                nr = rr + dr
+                nc = rc + dc
+                if inrange(nr, nc):
+                    if area[nr][nc] == 'D':
+                        return time
+                    elif area[nr][nc] == '.':
+                        area[nr][nc] = 'S'
+                        runner.append((nr, nc))
+        runner_cnt.append(len(runner))
+
+        # print(runner_cnt)
+        # print('++++++++++++++++++++++++++++++++++++++++++++++')
+    return 'KAKTUS'
+
+
+print(bfs(runner_start, water))
