@@ -6,6 +6,7 @@ from collections import defaultdict
 # delta = [(-1, 0), (1, 0), (0, -1), (0, 1)]
 dr = [-1, 1, 0, 0]
 dc = [0, 0, -1, 1]
+back = {0:1, 1:0, 2:3, 3:2}
 
 
 def move(biomes, cell_size):
@@ -14,7 +15,7 @@ def move(biomes, cell_size):
         biomes: 미생물 군집 정보 딕셔너리
         cell_size: 한변에 들어가는 셀 개수
     Returns:
-        한 사이클 이후 새로은 biomes 
+        한 사이클 이후 새로운 biomes 
     '''
     next_biomes = dict()
 
@@ -26,8 +27,8 @@ def move(biomes, cell_size):
         nc = c + dc[di]
 
         # 가장자리
-        if nr in [0, cell_size] or nc in [0, cell_size]:
-            next_biomes[(nr, nc)] = (micro // 2, (di + 2) % 4, micro // 2)
+        if nr in [0, cell_size - 1] or nc in [0, cell_size - 1]:
+            next_biomes[(nr, nc)] = (micro // 2, back[di], micro // 2)
         # 합쳐질 경우
         elif (nr, nc) in next_biomes:
             micro_max_0, di_0, micro_0 = next_biomes[(nr, nc)]
@@ -52,15 +53,16 @@ for case_num in range(1, int(input()) + 1):
         r, c, micro, di = map(int, input().split())
         biomes[(r, c)] = (micro, di - 1, micro)
 
-    if case_num != 1:
-        continue
+    # if case_num != 2:
+    #     continue
 
-    print(biomes)
+    # for key, item in biomes.items():
+    #         print(key, item)
     for _ in range(time):
         biomes = move(biomes, cell_size)
-        print('=========================================================================')
-        for key, item in biomes.items():
-            print(key, item)
+        # print('=========================================================================')
+        # for key, item in biomes.items():
+        #     print(key, item)
 
     result = 0
     for key, item in biomes.items():
