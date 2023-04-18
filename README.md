@@ -89,11 +89,7 @@
 
 ## <br/>📒 **23년 4월 세부 계획**
 
-### <br/>📖 **4월 3주차 (주제 : 2023 KAKAO BLIND TEST)**
-
-**문제 1 :** [[Programmers] 1. 개인정보 수집 유효기간](https://school.programmers.co.kr/learn/courses/30/lessons/150370)
-
-**문제 2 :** [[Programmers] 2. 택배 배달과 수거하기](https://school.programmers.co.kr/learn/courses/30/lessons/150369)
+### <br/>📖 **4월 4주차 (주제 : 2023 KAKAO BLIND TEST)**
 
 **문제 3 :** [[Programmers] 3. 이모티콘 할인행사](https://school.programmers.co.kr/learn/courses/30/lessons/150368)
 
@@ -108,6 +104,23 @@
 | **오태훈** |           |  [바로가기](https://github.com/heeje-factory/Navigate-Best-Algorithms/tree/main/NBA_taehun/2023_04/week_3rd)  |
 | **유덕균** |           | [바로가기](https://github.com/heeje-factory/Navigate-Best-Algorithms/tree/main/NBA_deokgyun/2023_04/week_3rd) |
 | **임성빈** |           | [바로가기](https://github.com/heeje-factory/Navigate-Best-Algorithms/tree/main/NBA_seongbin/2023_04/week_3rd) |
+| **조용현** |           | [바로가기](https://github.com/heeje-factory/Navigate-Best-Algorithms/tree/main/NBA_yonghyun/2023_04/week_3rd) |
+
+### <br/>📖 **4월 3주차 (주제 : 2023 KAKAO BLIND TEST)**
+
+**문제 1 :** [[Programmers] 1. 개인정보 수집 유효기간](https://school.programmers.co.kr/learn/courses/30/lessons/150370)
+
+**문제 2 :** [[Programmers] 2. 택배 배달과 수거하기](https://school.programmers.co.kr/learn/courses/30/lessons/150369)
+
+|    이름    | 참석 여부 |                                                     풀이                                                      |
+| :--------: | :-------: | :-----------------------------------------------------------------------------------------------------------: |
+| **김도언** |           |  [바로가기](https://github.com/heeje-factory/Navigate-Best-Algorithms/tree/main/NBA_doeon/2023_04/week_3rd)   |
+| **김태학** |    ✅     |  [바로가기](https://github.com/heeje-factory/Navigate-Best-Algorithms/tree/main/NBA_taehak/2023_04/week_3rd)  |
+| **박진성** |    ✅     | [바로가기](https://github.com/heeje-factory/Navigate-Best-Algorithms/tree/main/NBA_jinseong/2023_04/week_3rd) |
+| **양희제** |    ✅     |  [바로가기](https://github.com/heeje-factory/Navigate-Best-Algorithms/tree/main/NBA_heeje/2023_04/week_3rd)   |
+| **오태훈** |           |  [바로가기](https://github.com/heeje-factory/Navigate-Best-Algorithms/tree/main/NBA_taehun/2023_04/week_3rd)  |
+| **유덕균** |    ✅     | [바로가기](https://github.com/heeje-factory/Navigate-Best-Algorithms/tree/main/NBA_deokgyun/2023_04/week_3rd) |
+| **임성빈** |    ✅     | [바로가기](https://github.com/heeje-factory/Navigate-Best-Algorithms/tree/main/NBA_seongbin/2023_04/week_3rd) |
 | **조용현** |           | [바로가기](https://github.com/heeje-factory/Navigate-Best-Algorithms/tree/main/NBA_yonghyun/2023_04/week_3rd) |
 
 ### <br/>📖 **4월 1~2주차 (주제 : 팀장's Pick)**
