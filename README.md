@@ -87,13 +87,13 @@
   </div>
 </details>
 
-## <br/>📒 **23년 4월 세부 계획**
+## <br/>📒 **23년 5월 세부 계획**
 
-### <br/>📖 **4월 4주차 (주제 : 2023 KAKAO BLIND TEST)**
+### <br/>📖 **5월 1주차 (주제 : 프로젝트 집중 1)**
 
-**문제 3 :** [[Programmers] 3. 이모티콘 할인행사](https://school.programmers.co.kr/learn/courses/30/lessons/150368)
+**문제 1 :** [[Programmers] 92343. 양과 늑대](https://school.programmers.co.kr/learn/courses/30/lessons/92343)
 
-**문제 4 :** [[Programmers] 4. 표현 가능한 이진트리](https://school.programmers.co.kr/learn/courses/30/lessons/150367)
+**문제 2 :** [[BOJ] 17070. 파이프 옮기기 1](https://www.acmicpc.net/problem/17070)
 
 |    이름    | 참석 여부 |                                                     풀이                                                      |
 | :--------: | :-------: | :-----------------------------------------------------------------------------------------------------------: |
@@ -105,6 +105,25 @@
 | **유덕균** |           | [바로가기](https://github.com/heeje-factory/Navigate-Best-Algorithms/tree/main/NBA_deokgyun/2023_04/week_4th) |
 | **임성빈** |           | [바로가기](https://github.com/heeje-factory/Navigate-Best-Algorithms/tree/main/NBA_seongbin/2023_04/week_4th) |
 | **조용현** |           | [바로가기](https://github.com/heeje-factory/Navigate-Best-Algorithms/tree/main/NBA_yonghyun/2023_04/week_4th) |
+
+## <br/>📒 **23년 4월 세부 계획**
+
+### <br/>📖 **4월 4주차 (주제 : 2023 KAKAO BLIND TEST)**
+
+**문제 3 :** [[Programmers] 3. 이모티콘 할인행사](https://school.programmers.co.kr/learn/courses/30/lessons/150368)
+
+**문제 4 :** [[Programmers] 4. 표현 가능한 이진트리](https://school.programmers.co.kr/learn/courses/30/lessons/150367)
+
+|    이름    | 참석 여부 |                                                     풀이                                                      |
+| :--------: | :-------: | :-----------------------------------------------------------------------------------------------------------: |
+| **김도언** |    ✅     |  [바로가기](https://github.com/heeje-factory/Navigate-Best-Algorithms/tree/main/NBA_doeon/2023_04/week_4th)   |
+| **김태학** |    ✅     |  [바로가기](https://github.com/heeje-factory/Navigate-Best-Algorithms/tree/main/NBA_taehak/2023_04/week_4th)  |
+| **박진성** |    ✅     | [바로가기](https://github.com/heeje-factory/Navigate-Best-Algorithms/tree/main/NBA_jinseong/2023_04/week_4th) |
+| **양희제** |    ✅     |  [바로가기](https://github.com/heeje-factory/Navigate-Best-Algorithms/tree/main/NBA_heeje/2023_04/week_4th)   |
+| **오태훈** |    ✅     |  [바로가기](https://github.com/heeje-factory/Navigate-Best-Algorithms/tree/main/NBA_taehun/2023_04/week_4th)  |
+| **유덕균** |           | [바로가기](https://github.com/heeje-factory/Navigate-Best-Algorithms/tree/main/NBA_deokgyun/2023_04/week_4th) |
+| **임성빈** |           | [바로가기](https://github.com/heeje-factory/Navigate-Best-Algorithms/tree/main/NBA_seongbin/2023_04/week_4th) |
+| **조용현** |    ✅     | [바로가기](https://github.com/heeje-factory/Navigate-Best-Algorithms/tree/main/NBA_yonghyun/2023_04/week_4th) |
 
 ### <br/>📖 **4월 3주차 (주제 : 2023 KAKAO BLIND TEST)**
 
