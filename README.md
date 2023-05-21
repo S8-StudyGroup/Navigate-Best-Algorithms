@@ -44,6 +44,7 @@
 
 ## **📝 History**
 
+- 23.05.24 - 알고리즘 집중 기간(23.05.24 ~ 23.06.30)
 - 23.04.06 - 멤버 추가(✨임성빈✨)
 - 23.03.01 - 노션 동기화
 - 23.02.19 - NBA(Navigate Best Algorithms) 알고리즘 스터디 시작
@@ -61,7 +62,7 @@
 
 <div markdown="1">
     <ol>
-      <br /><li>매주마다 난이도를 구분하여 총 4문제를 선별하여 제공드립니다.</li>
+      <br /><li>매주마다 난이도를 구분하여 총 4문제(알고리즘 집중 기간에는 6문제)를 선별하여 제공드립니다.</li>
       <br /><li>문제당 소요시간은 최대 60분으로 잡아주시고, 시간 초과 시 풀이를 중단하고 정답을 보며 이해합니다.</li>
       <br /><li>풀이를 ChatGPT에 올려 코드 리뷰 및 개선 사항을 요청합니다.</li>
       <br /><li>풀이와 ChatGPT가 제공해준 개선 내용 및 코드를 Notion에 업로드합니다.</li>
@@ -89,11 +90,19 @@
 
 ## <br/>📒 **23년 5월 세부 계획**
 
-### <br/>📖 **5월 1주차 (주제 : 프로젝트 집중 1)**
+### <br/>📖 **5월 3 ~ 4주차 (주제 : 알고리즘 집중 1)**
 
-**문제 1 :** [[Programmers] 92343. 양과 늑대](https://school.programmers.co.kr/learn/courses/30/lessons/92343)
+**문제 1 :** [[BOJ] 10799. 쇠막대기](https://www.acmicpc.net/problem/10799)
 
-**문제 2 :** [[BOJ] 17070. 파이프 옮기기 1](https://www.acmicpc.net/problem/17070)
+**문제 2 :** [[BOJ] 20365. 블로그2](https://www.acmicpc.net/problem/20365)
+
+**문제 3 :** [[BOJ] 16918. 봄버맨](https://www.acmicpc.net/problem/16918)
+
+**문제 4 :** [[BOJ] 17141. 연구소 2](https://www.acmicpc.net/problem/17141)
+
+**문제 5 :** [[BOJ] 17135. 캐슬 디펜스](https://www.acmicpc.net/problem/17135)
+
+**문제 6 :** [[BOJ] 21610. 마법사 상어와 비바라기](https://www.acmicpc.net/problem/21610)
 
 |    이름    | 참석 여부 |                                                     풀이                                                      |
 | :--------: | :-------: | :-----------------------------------------------------------------------------------------------------------: |
@@ -104,6 +113,23 @@
 | **오태훈** |           |  [바로가기](https://github.com/heeje-factory/Navigate-Best-Algorithms/tree/main/NBA_taehun/2023_04/week_4th)  |
 | **유덕균** |           | [바로가기](https://github.com/heeje-factory/Navigate-Best-Algorithms/tree/main/NBA_deokgyun/2023_04/week_4th) |
 | **임성빈** |           | [바로가기](https://github.com/heeje-factory/Navigate-Best-Algorithms/tree/main/NBA_seongbin/2023_04/week_4th) |
+| **조용현** |           | [바로가기](https://github.com/heeje-factory/Navigate-Best-Algorithms/tree/main/NBA_yonghyun/2023_04/week_4th) |
+
+### <br/>📖 **5월 1 ~ 2주차 (주제 : 프로젝트 집중 1)**
+
+**문제 1 :** [[Programmers] 92343. 양과 늑대](https://school.programmers.co.kr/learn/courses/30/lessons/92343)
+
+**문제 2 :** [[BOJ] 17070. 파이프 옮기기 1](https://www.acmicpc.net/problem/17070)
+
+|    이름    | 참석 여부 |                                                     풀이                                                      |
+| :--------: | :-------: | :-----------------------------------------------------------------------------------------------------------: |
+| **김도언** |           |  [바로가기](https://github.com/heeje-factory/Navigate-Best-Algorithms/tree/main/NBA_doeon/2023_04/week_4th)   |
+| **김태학** |    ✅     |  [바로가기](https://github.com/heeje-factory/Navigate-Best-Algorithms/tree/main/NBA_taehak/2023_04/week_4th)  |
+| **박진성** |           | [바로가기](https://github.com/heeje-factory/Navigate-Best-Algorithms/tree/main/NBA_jinseong/2023_04/week_4th) |
+| **양희제** |    ✅     |  [바로가기](https://github.com/heeje-factory/Navigate-Best-Algorithms/tree/main/NBA_heeje/2023_04/week_4th)   |
+| **오태훈** |           |  [바로가기](https://github.com/heeje-factory/Navigate-Best-Algorithms/tree/main/NBA_taehun/2023_04/week_4th)  |
+| **유덕균** |    ✅     | [바로가기](https://github.com/heeje-factory/Navigate-Best-Algorithms/tree/main/NBA_deokgyun/2023_04/week_4th) |
+| **임성빈** |    ✅     | [바로가기](https://github.com/heeje-factory/Navigate-Best-Algorithms/tree/main/NBA_seongbin/2023_04/week_4th) |
 | **조용현** |           | [바로가기](https://github.com/heeje-factory/Navigate-Best-Algorithms/tree/main/NBA_yonghyun/2023_04/week_4th) |
 
 ## <br/>📒 **23년 4월 세부 계획**
