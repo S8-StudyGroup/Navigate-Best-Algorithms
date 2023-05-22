@@ -13,6 +13,7 @@ if times == 1:
 elif case in [0, 2]:
     for _ in range(row_size):
         input()
+    for _ in range(row_size):
         print('O'*col_size)
 
 else:
