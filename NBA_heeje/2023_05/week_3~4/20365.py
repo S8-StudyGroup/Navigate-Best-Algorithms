@@ -4,17 +4,20 @@
 # 색깔이 변할 때마다 카운트
 # 두 색깔 중 적게 나온것 + 1
 
-N = int(input())
-problems = input()
-colors = [0, 0]
+import sys
+input = sys.stdin.readline
+
+N = int(input().strip())
+problems = input().strip()
+blue_cnt = red_cnt = 0
 last = ""
 
 for problem in problems:
     if problem == "B" and last != "B":
-        colors[0] += 1
+        blue_cnt += 1
         last = "B"
     elif problem == "R" and last != "R":
-        colors[1] += 1
+        red_cnt += 1
         last = "R"
 
-print(min(colors) + 1)
+print(min(blue_cnt, red_cnt) + 1)
