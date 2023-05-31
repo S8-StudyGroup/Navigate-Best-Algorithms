@@ -88,6 +88,33 @@
   </div>
 </details>
 
+## <br/>📒 **23년 6월 세부 계획**
+
+### <br/>📖 **6월 1주차 (주제 : 알고리즘 집중 2)**
+
+**문제 1 :** [[BOJ] 11279. 최대 힙](https://www.acmicpc.net/problem/11279)
+
+**문제 2 :** [[BOJ] 15661. 링크와 스타트](https://www.acmicpc.net/problem/15661)
+
+**문제 3 :** [[BOJ] 5547. 일루미네이션](https://www.acmicpc.net/problem/5547)
+
+**문제 4 :** [[BOJ] 2293. 동전 1](https://www.acmicpc.net/problem/2293)
+
+**문제 5 :** [[BOJ] 20056. 마법사 상어와 파이어볼](https://www.acmicpc.net/problem/20056)
+
+**문제 6 :** [[BOJ] 17143. 낚시왕](https://www.acmicpc.net/problem/17143)
+
+|    이름    | 참석 여부 |                                                     풀이                                                      |
+| :--------: | :-------: | :-----------------------------------------------------------------------------------------------------------: |
+| **김도언** |           |  [바로가기](https://github.com/heeje-factory/Navigate-Best-Algorithms/tree/main/NBA_doeon/2023_06/week_1st)   |
+| **김태학** |           |  [바로가기](https://github.com/heeje-factory/Navigate-Best-Algorithms/tree/main/NBA_taehak/2023_06/week_1st)  |
+| **박진성** |           | [바로가기](https://github.com/heeje-factory/Navigate-Best-Algorithms/tree/main/NBA_jinseong/2023_06/week_1st) |
+| **양희제** |           |  [바로가기](https://github.com/heeje-factory/Navigate-Best-Algorithms/tree/main/NBA_heeje/2023_06/week_1st)   |
+| **오태훈** |           |  [바로가기](https://github.com/heeje-factory/Navigate-Best-Algorithms/tree/main/NBA_taehun/2023_06/week_1st)  |
+| **유덕균** |           | [바로가기](https://github.com/heeje-factory/Navigate-Best-Algorithms/tree/main/NBA_deokgyun/2023_06/week_1st) |
+| **임성빈** |           | [바로가기](https://github.com/heeje-factory/Navigate-Best-Algorithms/tree/main/NBA_seongbin/2023_06/week_1st) |
+| **조용현** |           | [바로가기](https://github.com/heeje-factory/Navigate-Best-Algorithms/tree/main/NBA_yonghyun/2023_06/week_1st) |
+
 ## <br/>📒 **23년 5월 세부 계획**
 
 ### <br/>📖 **5월 3 ~ 4주차 (주제 : 알고리즘 집중 1)**
@@ -106,14 +133,14 @@
 
 |    이름    | 참석 여부 |                                                     풀이                                                      |
 | :--------: | :-------: | :-----------------------------------------------------------------------------------------------------------: |
-| **김도언** |           |  [바로가기](https://github.com/heeje-factory/Navigate-Best-Algorithms/tree/main/NBA_doeon/2023_04/week_4th)   |
-| **김태학** |           |  [바로가기](https://github.com/heeje-factory/Navigate-Best-Algorithms/tree/main/NBA_taehak/2023_04/week_4th)  |
-| **박진성** |           | [바로가기](https://github.com/heeje-factory/Navigate-Best-Algorithms/tree/main/NBA_jinseong/2023_04/week_4th) |
-| **양희제** |           |  [바로가기](https://github.com/heeje-factory/Navigate-Best-Algorithms/tree/main/NBA_heeje/2023_04/week_4th)   |
-| **오태훈** |           |  [바로가기](https://github.com/heeje-factory/Navigate-Best-Algorithms/tree/main/NBA_taehun/2023_04/week_4th)  |
-| **유덕균** |           | [바로가기](https://github.com/heeje-factory/Navigate-Best-Algorithms/tree/main/NBA_deokgyun/2023_04/week_4th) |
-| **임성빈** |           | [바로가기](https://github.com/heeje-factory/Navigate-Best-Algorithms/tree/main/NBA_seongbin/2023_04/week_4th) |
-| **조용현** |           | [바로가기](https://github.com/heeje-factory/Navigate-Best-Algorithms/tree/main/NBA_yonghyun/2023_04/week_4th) |
+| **김도언** |           |  [바로가기](https://github.com/heeje-factory/Navigate-Best-Algorithms/tree/main/NBA_doeon/2023_05/week_3~4)   |
+| **김태학** |           |  [바로가기](https://github.com/heeje-factory/Navigate-Best-Algorithms/tree/main/NBA_taehak/2023_05/week_3~4)  |
+| **박진성** |           | [바로가기](https://github.com/heeje-factory/Navigate-Best-Algorithms/tree/main/NBA_jinseong/2023_05/week_3~4) |
+| **양희제** |           |  [바로가기](https://github.com/heeje-factory/Navigate-Best-Algorithms/tree/main/NBA_heeje/2023_05/week_3~4)   |
+| **오태훈** |           |  [바로가기](https://github.com/heeje-factory/Navigate-Best-Algorithms/tree/main/NBA_taehun/2023_05/week_3~4)  |
+| **유덕균** |           | [바로가기](https://github.com/heeje-factory/Navigate-Best-Algorithms/tree/main/NBA_deokgyun/2023_05/week_3~4) |
+| **임성빈** |           | [바로가기](https://github.com/heeje-factory/Navigate-Best-Algorithms/tree/main/NBA_seongbin/2023_05/week_3~4) |
+| **조용현** |           | [바로가기](https://github.com/heeje-factory/Navigate-Best-Algorithms/tree/main/NBA_yonghyun/2023_05/week_3~4) |
 
 ### <br/>📖 **5월 1 ~ 2주차 (주제 : 프로젝트 집중 1)**
 
@@ -123,14 +150,14 @@
 
 |    이름    | 참석 여부 |                                                     풀이                                                      |
 | :--------: | :-------: | :-----------------------------------------------------------------------------------------------------------: |
-| **김도언** |           |  [바로가기](https://github.com/heeje-factory/Navigate-Best-Algorithms/tree/main/NBA_doeon/2023_04/week_4th)   |
-| **김태학** |    ✅     |  [바로가기](https://github.com/heeje-factory/Navigate-Best-Algorithms/tree/main/NBA_taehak/2023_04/week_4th)  |
-| **박진성** |           | [바로가기](https://github.com/heeje-factory/Navigate-Best-Algorithms/tree/main/NBA_jinseong/2023_04/week_4th) |
-| **양희제** |    ✅     |  [바로가기](https://github.com/heeje-factory/Navigate-Best-Algorithms/tree/main/NBA_heeje/2023_04/week_4th)   |
-| **오태훈** |           |  [바로가기](https://github.com/heeje-factory/Navigate-Best-Algorithms/tree/main/NBA_taehun/2023_04/week_4th)  |
-| **유덕균** |    ✅     | [바로가기](https://github.com/heeje-factory/Navigate-Best-Algorithms/tree/main/NBA_deokgyun/2023_04/week_4th) |
-| **임성빈** |    ✅     | [바로가기](https://github.com/heeje-factory/Navigate-Best-Algorithms/tree/main/NBA_seongbin/2023_04/week_4th) |
-| **조용현** |           | [바로가기](https://github.com/heeje-factory/Navigate-Best-Algorithms/tree/main/NBA_yonghyun/2023_04/week_4th) |
+| **김도언** |           |  [바로가기](https://github.com/heeje-factory/Navigate-Best-Algorithms/tree/main/NBA_doeon/2023_05/week_1~2)   |
+| **김태학** |    ✅     |  [바로가기](https://github.com/heeje-factory/Navigate-Best-Algorithms/tree/main/NBA_taehak/2023_05/week_1~2)  |
+| **박진성** |           | [바로가기](https://github.com/heeje-factory/Navigate-Best-Algorithms/tree/main/NBA_jinseong/2023_05/week_1~2) |
+| **양희제** |    ✅     |  [바로가기](https://github.com/heeje-factory/Navigate-Best-Algorithms/tree/main/NBA_heeje/2023_05/week_1~2)   |
+| **오태훈** |           |  [바로가기](https://github.com/heeje-factory/Navigate-Best-Algorithms/tree/main/NBA_taehun/2023_05/week_1~2)  |
+| **유덕균** |    ✅     | [바로가기](https://github.com/heeje-factory/Navigate-Best-Algorithms/tree/main/NBA_deokgyun/2023_05/week_1~2) |
+| **임성빈** |    ✅     | [바로가기](https://github.com/heeje-factory/Navigate-Best-Algorithms/tree/main/NBA_seongbin/2023_05/week_1~2) |
+| **조용현** |           | [바로가기](https://github.com/heeje-factory/Navigate-Best-Algorithms/tree/main/NBA_yonghyun/2023_05/week_1~2) |
 
 ## <br/>📒 **23년 4월 세부 계획**
 
