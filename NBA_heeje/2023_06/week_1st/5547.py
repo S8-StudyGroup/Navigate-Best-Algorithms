@@ -1,5 +1,5 @@
 # [BOJ] 5547. 일루미네이션
-# 소요 시간 : 00분
+# 소요 시간 : 60분
 
 import sys
 from collections import deque
@@ -15,7 +15,7 @@ def find_non_building_area():
             if matrix[h][w] == 0:
                 non_building_bfs(h, w)
 
-    for h in range(H):
+    for h in range(1, H - 1):
         for w in [0, W - 1]:
             if matrix[h][w] == 0:
                 non_building_bfs(h, w)
@@ -31,8 +31,6 @@ def non_building_bfs(h, w):
         for d in range(6):
             move_y, move_x = y + dir_dict[odd_or_even][d][0], x + dir_dict[odd_or_even][d][1]
             if 0 <= move_y < H and 0 <= move_x < W and matrix[move_y][move_x] == 0:
-                if move_y == 2 and move_x == 1:
-                    print(h, w, y, x)
                 matrix[move_y][move_x] = 2
                 queue.append((move_y, move_x))
 
