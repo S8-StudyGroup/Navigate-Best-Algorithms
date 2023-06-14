@@ -1,5 +1,5 @@
 # [BOJ] 16926. 배열 돌리기 1
-# 소요 시간 : 00분
+# 소요 시간 : 20분
 
 import sys
 from collections import deque
