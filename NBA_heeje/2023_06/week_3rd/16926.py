@@ -6,6 +6,8 @@ from collections import deque
 
 input = sys.stdin.readline
 
+def in_range(y, x, d):
+    return 0 <= y + dy[d] < N and 0 <= x + dx[d] < M and answer[y + dy[d]][x + dx[d]] == 0
 
 def rotate(y: int, x: int) -> None:
     """
@@ -13,11 +15,7 @@ def rotate(y: int, x: int) -> None:
     """
     border_list = []
     for d in range(4):
-        while (
-            0 <= y + dy[d] < N
-            and 0 <= x + dx[d] < M
-            and answer[y + dy[d]][x + dx[d]] == 0
-        ):
+        while in_range(y, x, d):
             y, x = y + dy[d], x + dx[d]
             border_list.append(matrix[y][x])
 
@@ -25,14 +23,9 @@ def rotate(y: int, x: int) -> None:
     border_deque = deque(border_list[-cnt:] + border_list[:-cnt])
 
     for d in range(4):
-        while (
-            0 <= y + dy[d] < N
-            and 0 <= x + dx[d] < M
-            and answer[y + dy[d]][x + dx[d]] == 0
-        ):
+        while in_range(y, x, d):
             y, x = y + dy[d], x + dx[d]
             answer[y][x] = border_deque.popleft()
-
 
 dy = [1, 0, -1, 0]
 dx = [0, 1, 0, -1]
