@@ -34,7 +34,7 @@ def move(idx):
         if len(piece_in_board[y + dy[d]][x + dx[d]]) >= 4:
             return "Game End"
     
-    # 가려는 곳이 파란색인 경우
+    # 가려는 곳이 빨간색인 경우
     else:
         piece_group = get_piece_group(y, x, d, idx)
         piece_in_board[y + dy[d]][x + dx[d]].extend(piece_group[::-1])
