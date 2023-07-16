@@ -9,17 +9,15 @@ def moving(board:list):
         line_list = [board[line_num], board[line_num][::-1], rotate_board[line_num], rotate_board[line_num][::-1]]
         for board_num in range(4):
             new_board[board_num].append([])
-            nums = []
+            prev_num = []
             for num in line_list[board_num]:
                 if num != 0:
-                    nums.append(num)
-                if len(nums) == 2:
-                    if nums[0] == nums[1]:
-                        new_board[board_num][line_num].append(2*nums[0])
-                        nums = []
+                    if prev_num == num:
+                        new_board[board_num][line_num][-1] *= 2
+                        prev_num = 0
                     else:
-                        new_board[board_num][line_num].append(nums.pop(0))
-            new_board[board_num][line_num] += nums
+                        new_board[board_num][line_num].append(num)
+                        prev_num = num
                     
             new_board[board_num][line_num] += [0 for _ in range(length - len(new_board[board_num][line_num]))]
     for i in range(length):
