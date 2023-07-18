@@ -2,6 +2,7 @@
 # 소요 시간 : 00분
 
 import sys
+input = sys.stdin.readline
 from collections import deque
 
 # 빈칸: 0, 사과: 1, 뱀: 2
@@ -45,7 +46,7 @@ while True:
     if board[h_y][h_x] == 0:
         board[snake[0][0]][snake[0][1]] = 0
         snake.popleft()
-        
+
     board[h_y][h_x] = 2
 
     if directions and directions[0][0] == time:
