@@ -42,7 +42,7 @@ def make_wind():
     winds = [[0] * C for _ in range(R)]
     for x, y, heat_d in heaters:
         hx, hy = x + dx[heat_d], y + dy[heat_d]
-        winds[hx][hy] = 5
+        winds[hx][hy] += 5
         queue = deque()
         queue.append((hx, hy, 5))
         visited = set()
@@ -54,6 +54,7 @@ def make_wind():
                     nx, ny = x + wind_dx[heat_d][d], y + wind_dy[heat_d][d]
                     if 0 <= nx < R and 0 <= ny < C and (nx, ny) not in visited and not is_wall(x, y, d, heat_d):
                         winds[nx][ny] += cnt - 1
+                        visited.add((nx, ny))
                         queue.append((nx, ny, cnt - 1))
     
     for i in range(R):
@@ -77,11 +78,11 @@ def control_temperature():
                 elif d == 3 and (x, y, 0) in walls: continue
                 elif d == 4 and (x + 1, y, 0) in walls: continue
 
-                diff = room[x][y] - room[nx][ny] // 4
+                diff = int((room[x][y] - room[nx][ny]) / 4)
                 total -= diff
                 temps[nx][ny] += diff
             
-            temps[x][y] += diff
+            temps[x][y] += total
     
     for i in range(R):
         for j in range(C):
