@@ -1,5 +1,5 @@
 # [BOJ] 23289. 온풍기 안녕!
-# 소요 시간 : 00분
+# 소요 시간 : 90++++분
 
 from collections import deque
 import sys
@@ -19,7 +19,7 @@ def is_wall(x, y, d, heat_d):
             return True
         elif d == 1 and (x, y - 1, 1) in walls:
             return True
-        elif d == 2 and ((x + 1, y - 1, 0) in walls or (x + 1, y - 1, 1) in walls):
+        elif d == 2 and ((x + 1, y, 0) in walls or (x + 1, y - 1, 1) in walls):
             return True
     elif heat_d == 3:
         if d == 0 and ((x, y - 1, 0) in walls or (x, y - 1, 1) in walls):
