@@ -1,5 +1,5 @@
 # [BOJ] 1194. 달이 차오른다, 가자.
-# 소요 시간 : 00분
+# 소요 시간 : 70분
 
 from collections import deque
 import sys
