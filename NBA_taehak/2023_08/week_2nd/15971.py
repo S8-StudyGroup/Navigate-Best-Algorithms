@@ -40,15 +40,15 @@ def bfs(a, b):
     visited[a] = True
 
     while queue:
-        node, max_d, sum_d = queue.popleft()
+        node, max_dist, sum_dist = queue.popleft()
 
         if node == b:
-            return sum_d - max_d
+            return sum_dist - max_dist
 
-        for next_node, d in graph[node]:
-            if not visited[next_node]:
-                visited[next_node] = True
-                queue.append((v, max(max_d, d), sum_d + d))
+        for v, dist in graph[node]:
+            if not visited[v]:
+                visited[v] = True
+                queue.append((v, max(max_dist, dist), sum_dist + dist))
 
 
 
