@@ -1,5 +1,5 @@
 # [BOJ] 16722. 결! 합!
-# 소요 시간 : 00분
+# 소요 시간 : 40분
 
 from itertools import combinations
 import sys
@@ -26,9 +26,7 @@ for gyeol_case in combinations(range(9), 3):
     
     else:
         gyeol.add(gyeol_case)
-
-print(gyeol)
-
+        
 n = int(input())
 score = 0
 is_gyeol = False
