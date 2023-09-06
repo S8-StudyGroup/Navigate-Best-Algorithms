@@ -103,6 +103,25 @@
 
 ## <br/>📒 **23년 9월 세부 계획**
 
+### <br/>📖 **9월 2주차 (주제 : 공채 시즌 3)**
+
+**문제 1 :** [[BOJ] 1963. 소수 경로](https://www.acmicpc.net/problem/1963)
+
+**문제 2 :** [[BOJ] 11052. 카드 구매하기](https://www.acmicpc.net/problem/11052)
+
+**문제 3 :** [[BOJ] 17232. 생명 게임](https://www.acmicpc.net/problem/17232)
+
+**문제 4 :** [[Programmers] 152995. 인사고과](https://school.programmers.co.kr/learn/courses/30/lessons/152995)
+
+|    이름    | 참석 여부 |                                                     풀이                                                      |
+| :--------: | :-------: | :-----------------------------------------------------------------------------------------------------------: |
+| **김도언** |           |  [바로가기](https://github.com/heeje-factory/Navigate-Best-Algorithms/tree/main/NBA_doeon/2023_09/week_2nd)   |
+| **김태학** |           |  [바로가기](https://github.com/heeje-factory/Navigate-Best-Algorithms/tree/main/NBA_taehak/2023_09/week_2nd)  |
+| **양희제** |           |  [바로가기](https://github.com/heeje-factory/Navigate-Best-Algorithms/tree/main/NBA_heeje/2023_09/week_2nd)   |
+| **유덕균** |           | [바로가기](https://github.com/heeje-factory/Navigate-Best-Algorithms/tree/main/NBA_deokgyun/2023_09/week_2nd) |
+| **임성빈** |           | [바로가기](https://github.com/heeje-factory/Navigate-Best-Algorithms/tree/main/NBA_seongbin/2023_09/week_2nd) |
+| **조용현** |           | [바로가기](https://github.com/heeje-factory/Navigate-Best-Algorithms/tree/main/NBA_yonghyun/2023_09/week_2nd) |
+
 ### <br/>📖 **9월 1주차 (주제 : 공채 시즌 2)**
 
 **문제 1 :** [[Programmers] 131127. 할인 행사](https://school.programmers.co.kr/learn/courses/30/lessons/131127)
