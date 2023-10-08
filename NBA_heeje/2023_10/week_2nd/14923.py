@@ -1,6 +1,7 @@
 # [BOJ] 14923. 미로 탈출
 # 소요 시간 : 00분
 
+from collections import deque
 import sys
 input = sys.stdin.readline
 
@@ -9,42 +10,38 @@ def in_range(y, x):
     return 0 <= y < N and 0 <= x < M
 
 
-def dfs(y, x, is_used):
-    global answer
+def bfs():
+    queue = deque()
+    queue.append((Hy, Hx, 0, 1))
+    visited = [[[False] * 2 for _ in range(M)] for _ in range(N)]
+    visited[Hy][Hx][1] = True
 
-    if y == Ey and x == Ex:
-        answer = visited[Ey][Ex] - 1 if answer == -1 else min(answer, visited[Ey][Ex] - 1)
-        return
-    
-    if answer != -1 and visited[y][x] >= answer: return 
+    while queue:
+        y, x, cnt, magic = queue.popleft()
 
-    for dy, dx in direction:
-        ny, nx = y + dy, x + dx
-        if in_range(ny, nx) and visited[ny][nx] == 0:
-            if matrix[ny][nx] == 1 and not is_used:
-                matrix[ny][nx] = 0
-                visited[ny][nx] = visited[y][x] + 1
-                dfs(ny, nx, True)
-                visited[ny][nx] = 0
-                matrix[ny][nx] = 1
-            elif matrix[ny][nx] == 0:
-                visited[ny][nx] = visited[y][x] + 1
-                dfs(ny, nx, is_used)
-                visited[ny][nx] = 0
+        if y == Ey and x == Ex:
+            return cnt
+        
+        for dy, dx in direction:
+            ny, nx = y + dy, x + dx
 
+
+            if in_range(ny, nx):
+                if matrix[ny][nx] == 1 and magic == 1:
+                    visited[ny][nx][0] = True
+                    queue.append((ny, nx, cnt + 1, 0))
+                elif matrix[ny][nx] == 0 and not visited[ny][nx][magic]:
+                    visited[ny][nx][magic] = True
+                    queue.append((ny, nx, cnt + 1, magic))
+
+    return -1
 
 direction = [(-1, 0), (1, 0), (0, -1), (0, 1)]
 
 N, M = map(int, input().split())
 Hy, Hx = map(int, input().split())
-Hy, Hx = Hy - 1, Hx - 1
 Ey, Ex = map(int, input().split())
-Ey, Ex = Ey - 1, Ex - 1
+Hy, Hx, Ey, Ex = Hy - 1, Hx - 1, Ey - 1, Ex - 1
 matrix = [list(map(int, input().split())) for _ in range(N)]
-visited = [[0] * M for _ in range(N)]
-answer = -1
 
-visited[Hy][Hx] = 1
-dfs(Hy, Hx, False)
-
-print(answer)
+print(bfs())
