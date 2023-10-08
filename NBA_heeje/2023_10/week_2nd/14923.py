@@ -11,11 +11,13 @@ def in_range(y, x):
 
 def dfs(y, x, is_used):
     global answer
-    if answer != 0: return
+
     if y == Ey and x == Ex:
-        answer = visited[Ey][Ex] - 1
+        answer = visited[Ey][Ex] - 1 if answer == -1 else min(answer, visited[Ey][Ex] - 1)
         return
     
+    if answer != -1 and visited[y][x] >= answer: return 
+
     for dy, dx in direction:
         ny, nx = y + dy, x + dx
         if in_range(ny, nx) and visited[ny][nx] == 0:
@@ -40,7 +42,7 @@ Ey, Ex = map(int, input().split())
 Ey, Ex = Ey - 1, Ex - 1
 matrix = [list(map(int, input().split())) for _ in range(N)]
 visited = [[0] * M for _ in range(N)]
-answer = 0
+answer = -1
 
 visited[Hy][Hx] = 1
 dfs(Hy, Hx, False)
