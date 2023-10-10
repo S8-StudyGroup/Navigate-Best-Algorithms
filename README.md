@@ -1,3 +1,9 @@
+### **📌 23.10.10 이후 종료된 스터디입니다.**
+
+<hr />
+
+<br />
+
 # **Navigate-Best-Algorithms**
 
 최고의 알고리즘 문제들을 유형별로 함께 해결해보는 공간, NBA입니다.
@@ -42,6 +48,7 @@
 
 ## **📝 History**
 
+- 23.10.10 - 🏁 스터디 종료
 - 23.09.23 - 멤버 탈퇴(💯 임성빈)
 - 23.09.12 - 취업 집중 기간(23.09.12 ~ 23.10.02)
 - 23.08.07 - 멤버 탈퇴(💯 박진성)
@@ -103,9 +110,9 @@
   </div>
 </details>
 
-## <br/>📒 **23년 9월 세부 계획**
+## <br/>📒 **23년 10월 세부 계획**
 
-### <br/>📖 **9월 3주차 (주제 : 공채 시즌 4)**
+### <br/>📖 **10월 2주차 (주제 : 공채 시즌 4)**
 
 **문제 1 :** [[BOJ] 30036. INK](https://www.acmicpc.net/problem/30036)
 
@@ -117,11 +124,13 @@
 
 |    이름    | 참석 여부 |                                                     풀이                                                      |
 | :--------: | :-------: | :-----------------------------------------------------------------------------------------------------------: |
-| **김도언** |           |  [바로가기](https://github.com/heeje-factory/Navigate-Best-Algorithms/tree/main/NBA_doeon/2023_10/week_2nd)   |
+| **김도언** |     ✅    |  [바로가기](https://github.com/heeje-factory/Navigate-Best-Algorithms/tree/main/NBA_doeon/2023_10/week_2nd)   |
 | **김태학** |           |  [바로가기](https://github.com/heeje-factory/Navigate-Best-Algorithms/tree/main/NBA_taehak/2023_10/week_2nd)  |
-| **양희제** |           |  [바로가기](https://github.com/heeje-factory/Navigate-Best-Algorithms/tree/main/NBA_heeje/2023_10/week_2nd)   |
+| **양희제** |     ✅    |  [바로가기](https://github.com/heeje-factory/Navigate-Best-Algorithms/tree/main/NBA_heeje/2023_10/week_2nd)   |
 | **유덕균** |           | [바로가기](https://github.com/heeje-factory/Navigate-Best-Algorithms/tree/main/NBA_deokgyun/2023_10/week_2nd) |
 | **조용현** |           | [바로가기](https://github.com/heeje-factory/Navigate-Best-Algorithms/tree/main/NBA_yonghyun/2023_10/week_2nd) |
+
+## <br/>📒 **23년 9월 세부 계획**
 
 ### <br/>📖 **9월 2주차 (주제 : 공채 시즌 3)**
 
